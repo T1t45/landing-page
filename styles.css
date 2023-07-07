@@ -18,7 +18,9 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
+header,
+main,
+section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,8 +33,8 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-grow: 1;
-    max-width: 1100px;   
     padding-top: 20px;
+    max-width: 1100px;
 }
 
 .header-logo-container {
@@ -43,7 +45,7 @@ header {
 
 .header-links-container {
     display: flex;
-    column-gap: 20px;
+    gap: 20px;
 }
 
 .link {
@@ -52,17 +54,16 @@ header {
     text-decoration: none;
 }
 
-.section-one {
+.part-one {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
-    /* padding-left: 200px;
-    padding-right: 200px; */
     padding-top: 100px;
     padding-bottom: 100px;
+    max-width: 1100px;
+    flex-grow: 1;
 }
 
-.section-one-left-container {
+.part-one-left-container {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -93,11 +94,11 @@ header {
     cursor: pointer;
 }
 
-.section-one-right-container {
+.part-one-right-container {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 500px;
     color: #F9FAF8;
     background-color: rgb(98, 103, 116);
-}
+}          
