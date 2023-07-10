@@ -21,7 +21,8 @@ html {
 header,
 .first-section,
 .second-section,
-.third-section {
+.third-section,
+.fourth-section {
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -41,7 +42,8 @@ header,
     background-color: #1F2937;
 }
 
-.second-section {
+.second-section,
+.fourth-section {
     background-color: white;
 }
 
@@ -54,7 +56,7 @@ header,
     align-items: center;
     justify-content: space-between;
     flex-grow: 1;
-    padding-top: 20px;
+    margin-top: 20px;
     max-width: 1100px;
 }
 
@@ -78,8 +80,8 @@ header,
 .part-one {
     display: flex;
     justify-content: space-between;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     max-width: 1100px;
     flex-grow: 1;
 }
@@ -88,8 +90,8 @@ header,
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     max-width: 1100px;
     flex-grow: 1;
 }
@@ -98,10 +100,23 @@ header,
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     max-width: 830px;
     flex-grow: 1;
+}
+
+.part-four {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    flex-grow: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
 }
 
 .quote {
@@ -192,4 +207,33 @@ header,
 
 .square-text {
     text-align: center;
+}
+
+.part-four-inner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.call-to-action {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.sign-up-for-our {
+    color: white;
+}
+
+.sign-up-transparent {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 30px;
+    border-radius: 8px;
+    cursor: pointer;
 }
