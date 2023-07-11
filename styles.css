@@ -19,10 +19,10 @@ html {
 }
 
 header,
-.first-section,
-.second-section,
-.third-section,
-.fourth-section,
+.hero-section,
+.features-section,
+.testimonial-section,
+.cta-section,
 footer {
     display: flex;
     align-items: center;
@@ -39,17 +39,17 @@ main {
 }
 
 header,
-.first-section,
+.hero-section,
 footer {
     background-color: #1F2937;
 }
 
-.second-section,
-.fourth-section {
+.features-section,
+.cta-section {
     background-color: white;
 }
 
-.third-section {
+.testimonial-section {
     background-color: #E5E7EB;
 }
 
@@ -73,7 +73,7 @@ footer {
     gap: 20px;
 }
 
-.link {
+.header-link {
     color: #E5E7EB;
     font-size: 18px;
     text-decoration: none;
@@ -85,7 +85,7 @@ footer {
     color: white;
 }
 
-.part-one {
+.hero-content {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
@@ -94,7 +94,7 @@ footer {
     flex-grow: 1;
 }
 
-.part-two {
+.features-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -104,7 +104,7 @@ footer {
     flex-grow: 1;
 }
 
-.part-three {
+.testimonial-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -114,7 +114,7 @@ footer {
     flex-grow: 1;
 }
 
-.part-four {
+.cta-content {
     display: flex;
     justify-content: space-between;
     max-width: 1100px;
@@ -127,20 +127,20 @@ footer {
     border-radius: 10px;
 }
 
-.quote {
+.testimonial-quote {
     font-size: 36px;
     width: 100%;
     font-style: italic;
     color: #1F2937;
 }
 
-.author {
+.testimonial-author {
     color: black;
     font-weight: bold;
     margin-left: auto;
 }
 
-.part-one-left-container {
+.hero-left-container {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -148,19 +148,19 @@ footer {
     width: 410px;
 }
 
-.awesome-title {
+.hero-title {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
-.awesome-description {
+.hero-description {
     color: #F9FAF8;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.sign-up {
+.sign-up-button {
     color: #F9FAF8;
     background-color: #3882F6;
     border: none;
@@ -171,7 +171,7 @@ footer {
     cursor: pointer;
 }
 
-.part-one-right-container {
+.hero-right-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,32 +180,32 @@ footer {
     background-color: rgb(98, 103, 116);
 }
 
-.part-two-top-container {
+.features-top-container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.random-title {
+.features-title {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
     white-space: nowrap;
 }
 
-.part-two-bottom-container {
+.features-bottom-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.square-and-text {
+.feature {
     width: 150px;
     margin-right: 60px;
 }
 
-.square-shape {
+.feature-icon {
     width: 100%;
     height: 150px;
     margin-bottom: 5px;
@@ -213,12 +213,12 @@ footer {
     border-radius: 10px;
 }
 
-.square-text {
+.feature-description {
     text-align: center;
     color: rgb(99, 99, 99);
 }
 
-.part-four-inner {
+.cta-content-inner {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -226,17 +226,17 @@ footer {
     margin-right: 150px;
 }
 
-.call-to-action {
+.cta-text {
     font-size: 20px;
     font-weight: bold;
     color: white;
 }
 
-.sign-up-for-our {
+.cta-subtext {
     color: white;
 }
 
-.sign-up-transparent {
+.cta-button {
     color: #F9FAF8;
     background-color: #3882F6;
     border: 2px solid white;
